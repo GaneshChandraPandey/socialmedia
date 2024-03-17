@@ -1,0 +1,73 @@
+.share{
+    width: 95%;
+    height: 170px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    padding: 15px;
+}
+.sharewrapper{
+    padding: 10px;
+
+}
+.sharetop{
+    display: flex;
+    align-items: center;
+}
+
+.shareprogileimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.shareinput{
+    border: none;
+    width: 180px;
+    
+}
+
+.shareinput:focus{
+    outline: none;
+}
+.sharehr{
+    margin: 20px;
+}
+.sharebottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareoptions{
+    display: flex;
+   margin-left: 20px;
+    
+}
+.shareoption{
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+    cursor: pointer;
+}
+
+.shareprogileimg{
+    width: 90px;
+    height: 90px;
+}
+.shareicon{
+    font-size: 18px;
+    margin-right: 3px;
+}
+.shareoptiontext{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sharebutton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+}

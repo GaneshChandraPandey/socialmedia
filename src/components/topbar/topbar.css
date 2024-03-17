@@ -1,0 +1,90 @@
+.topbarcontainer{
+    height: 50px;
+    width: 100%;
+    background-color: #3c65ec;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    font-family: sans-serif;
+    z-index: 999;
+    
+}
+.topbarleft{
+    flex: 3;
+    border-right-color: green;
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px ;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.topbarcrnter{
+    flex: 5;
+    border-radius: 30px;
+}
+.searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 180px;
+}
+.serchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.searchInput{
+    border: none;
+    width: 70%;
+}
+.searchInput:focus{
+    outline: none;
+}
+.topbarright{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+
+}
+
+.topbarlink{
+margin-right: 10px;
+font-size: 14px;
+cursor: pointer;
+justify-content: space-between;
+}
+.topbaricons{
+    display: flex;
+    justify-content: space-between;
+}
+.topbariconitem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.topbriconbadge{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    align-items: center;
+    justify-content: center;
+}
+.topbarimg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
