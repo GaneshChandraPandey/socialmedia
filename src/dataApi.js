@@ -9,6 +9,7 @@ id:2,
 profilepicture:"/assets/person/deepak.jpg",
 username:"Deepak",
 },
+
 {
 id:3,
 profilepicture:"/assets/person/ganesh.jpg",
@@ -29,7 +30,36 @@ id:6,
 profilepicture:"/assets/person/bhupesh.jpg",
 username:"Bhupesh",
 },
- 
+{
+    id:7,
+    profilepicture:"/assets/person/deepak.jpg",
+    username:"Mohit",
+    },
+    {
+    id:8,
+    profilepicture:"/assets/person/deepak.jpg",
+    username:"Rahul",
+    },
+    {
+    id:9,
+    profilepicture:"/assets/person/deepak.jpg",
+    username:"Dishant",
+    },
+    {
+    id:10,
+    profilepicture:"/assets/person/deepak.jpg",
+    username:"Chandan",
+    },
+    {
+    id:11,
+    profilepicture:"/assets/person/deepak.jpg",
+    username:"Manish",
+    },
+    {
+    id:12,
+    profilepicture:"/assets/person/deepak.jpg",
+    username:"Mayank",
+    },
 ];
 
 export const posts = [
