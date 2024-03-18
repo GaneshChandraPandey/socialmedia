@@ -1,4 +1,6 @@
 import "./rightbar.css"
+import Online from "../aonline/online"
+import {user} from "../../dataApi"
 
 
 export default function rightbar() {
@@ -14,14 +16,13 @@ export default function rightbar() {
         <img src="/assets/posts/add.png" alt="" className="rightbaradd" />
         <h4 className="rightbartitle">Online Friends</h4>
         <ul className="rightbarfriendlist">
-        <li className="rightbarfriend">
-            <div className="rightbarimgcontainer">
-              <img src="/assets/person/abhishek.png" alt="" className="rightbarprofileimg" />
-              <span className="rightbaronline"></span>
-            </div>
-            <span className="rightbarusername">abhi</span>
-          </li>
-        </ul>
+        
+        {user.map(u=>(
+          <Online  key ={u.id}  user= {u}/>
+        ))}
+
+
+     </ul>
       </div>
     </div>
   );

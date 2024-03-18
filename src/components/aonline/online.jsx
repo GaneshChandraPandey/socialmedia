@@ -7,9 +7,9 @@ export default function online({user}) {
     <li className="rightbarfriend">
             <div className="rightbarimgcontainer">
               <img src={user.profilepicture}alt="" className="rightbarprofileimg" />
-              <span className="rightbaronline">abhi</span>
+              <span className="rightbaronline"></span>
             </div>
-            <span className="rightbarusername">abhi</span>
+            <span className="rightbarusername">{user.username}</span>
           </li>
      
   );

@@ -3,7 +3,6 @@ import Share from "../share/Share"
 import Post from "../apost/Post"
 import {posts} from "../../dataApi"
 
-
 export default function feed() {
   return (
     <div className="feed">
@@ -13,10 +12,6 @@ export default function feed() {
 {posts.map((p)=>(
   <Post key ={p.id} post = {p}/>
 ))}
-
-
- 
-
     </div>
   )
 }
